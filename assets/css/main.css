@@ -2008,12 +2008,17 @@ input, select, textarea {
 
 			header.major p {
 				top: 0;
-				margin: 1.5em 0 0 0;
-				padding: 1.5em 1.5em 0 1.5em;
-				font-size: 1.5em;
+				margin: 0 0 0 0;
+				padding: 0.5em 1.5em 0 1.5em;
+				font-size: 1.0em;
 				line-height: 1.75em;
-				border-top: solid 1px rgba(224, 224, 224, 0.75);
+				/* border-top: solid 1px rgba(224, 224, 224, 0.75); */
 				display: inline-block;
+			}
+
+			.spaceship {
+				height: 4.1em;
+				margin: 3em 0 0 0;
 			}
 
 			header.major.last {
@@ -2174,11 +2179,11 @@ input, select, textarea {
 	}
 
 		.image:after {
-			-moz-transition: opacity 0.25s ease-in-out;
+			/* -moz-transition: opacity 0.25s ease-in-out;
 			-webkit-transition: opacity 0.25s ease-in-out;
 			-ms-transition: opacity 0.25s ease-in-out;
-			transition: opacity 0.25s ease-in-out;
-			background-image: url("images/overlay.png");
+			transition: opacity 0.25s ease-in-out; */
+			/* background-image: url("images/overlay.png"); */
 			content: '';
 			display: block;
 			height: 100%;
@@ -2191,6 +2196,10 @@ input, select, textarea {
 
 		.image img {
 			display: block;
+		}
+
+		.image.icon.solid:hover {
+			opacity: 0.7;
 		}
 
 		.image.fit {
@@ -2636,7 +2645,7 @@ input, select, textarea {
 
 			.feature .image img {
 				display: block;
-				min-height: 100%;
+				height: 100%;
 				min-width: 100%;
 				position: absolute;
 			}
@@ -2711,7 +2720,7 @@ input, select, textarea {
 		background-repeat: repeat-x,								no-repeat;
 		background-size: 3200px 460px,							cover;
 		color: rgba(255, 255, 255, 0.8);
-		padding: 4em 0 20em 0;
+		padding: 4em 0 10em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -2773,11 +2782,11 @@ input, select, textarea {
 			cursor: default;
 			display: inline-block;
 			font-size: 2.25em;
-			height: 7.35em;
+			height: 4.35em;
 			line-height: 2.35em;
 			margin: 0 0 0.75em 0;
 			text-align: center;
-			width: 7.35em;
+			width: 4.35em;
 			box-shadow: 0px 6px 14px #00000054;
 		}
 
@@ -2787,12 +2796,12 @@ input, select, textarea {
 			}
 
 		#header h1 {
-			font-size: 4.5em;
+			font-size: 4.0em;
 			margin: 0;
 		}
 
 		#header p {
-			font-size: 2.2em;
+			font-size: 1.5em;
 			line-height: 1.5em;
 			margin: 0.25em 0 0 0;
 			text-shadow: 1px 1px 7px #000000;
@@ -2961,15 +2970,15 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 8em 0 16em 0;
+				padding: 4em 0 10em 0;
 			}
 
 				#header h1 {
-					font-size: 4.5em;
+					font-size: 3.5em;
 				}
 
 				#header p {
-					font-size: 2.2em;
+					font-size: 1.5em;
 					line-height: 1.65em;
 				}
 
@@ -3032,7 +3041,7 @@ input, select, textarea {
 				background-attachment: scroll,								scroll;
 				background-image: url("images/top-1600.svg") url("../../images/header.jpg");
 				background-size: 1600px 230px,							cover;
-				padding: 6em 0 12em 0;
+				padding: 4em 0 12em 0;
 			}
 
 				#header:before {
@@ -3044,11 +3053,11 @@ input, select, textarea {
 				}
 
 				#header h1 {
-					font-size: 4.5em;
+					font-size: 3.5em;
 				}
 
 				#header p {
-					font-size: 2.2em;
+					font-size: 1.5em;
 				}
 
 		/* Footer */
@@ -3184,7 +3193,7 @@ input, select, textarea {
 			#header {
 				background-image: url("images/top-1280.svg") url("../../images/header.jpg");
 				background-size: 1280px 184px,							cover;
-				padding: 3em 0 7em 0;
+				padding: 3em 0 8em 0;
 			}
 
 				#header:before {
@@ -3200,11 +3209,11 @@ input, select, textarea {
 				}
 
 				#header h1 {
-					font-size: 4.5em;
+					font-size: 3.2em;
 				}
 
 				#header p {
-					font-size: 1.8em;
+					font-size: 1.3em;
 				}
 
 		/* Footer */
