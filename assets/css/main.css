@@ -2550,6 +2550,7 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		text-transform: uppercase;
+		margin-bottom: 4em;
 	}
 
 		input[type="submit"]:hover,
@@ -2673,7 +2674,7 @@ input, select, textarea {
 		}
 
 			.feature .content h3 {
-				margin-bottom: 0.5em;
+				margin-bottom: 0.1em;
 			}
 
 			.feature .content :last-child {
@@ -2929,7 +2930,11 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		padding: 6em 0 5em 0;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		padding: 3em 0 5em 0;
 		position: relative;
 		z-index: 1;
 	}
