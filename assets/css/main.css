@@ -115,7 +115,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #4eb980;
+		color: #0a7102;
 		text-decoration: none;
 	}
 
@@ -2620,6 +2620,13 @@ input, select, textarea {
 
 /* Feature */
 
+	#plant-divide {
+		vertical-align: middle;
+		height: 1.3em;
+	}
+
+	
+
 	.feature {
 		position: relative;
 		height: 20em;
@@ -2660,7 +2667,7 @@ input, select, textarea {
 
 		.feature .content {
 			display: inline-block;
-			padding: 3.5em;
+			padding: 0.5em 3.5em 3.5em 3.5em;
 			vertical-align: middle;
 			width: 48%;
 		}
@@ -2942,6 +2949,10 @@ input, select, textarea {
 		#main footer.major {
 			background: #ffffff;
 		}
+
+		/* #main header.major {
+			background-image: url('../../images/portfolioStars.png');
+		} */
 
 /* Wide */
 
