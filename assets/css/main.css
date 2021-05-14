@@ -2017,8 +2017,15 @@ input, select, textarea {
 			}
 
 			.spaceship {
-				height: 4.1em;
+				height: 4.0em;
 				margin: 3em 0 0 0;
+				transition: 2s ease-in-out;
+				/* position: absolute; */
+			}
+
+			.spaceship:hover {
+				height: 4.5em;
+				margin: 2.5em 0 0 0;
 			}
 
 			header.major.last {
@@ -2624,6 +2631,14 @@ input, select, textarea {
 	#plant-divide {
 		vertical-align: middle;
 		height: 1.3em;
+		margin: 0em 0.5em 0em 0.5em;
+		width: 1.1em;
+		transition: 0.5s ease-in-out;
+	}
+
+	#plant-divide:hover {
+		height: 1.5em;
+		
 	}
 
 	
