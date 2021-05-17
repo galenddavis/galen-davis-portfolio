@@ -2028,6 +2028,21 @@ input, select, textarea {
 				margin: 2.5em 0 0 0;
 			}
 
+			.skills {
+				display: flex;
+				justify-content: space-around;
+			}
+
+			.skills ul {
+				display: flex;
+				flex-direction: column;
+			}
+			
+			.skills ul li {
+				font-size: 2.3em;
+				color: #476527;
+			}
+
 			header.major.last {
 				border-bottom: 0;
 				margin-bottom: 0;
@@ -2836,7 +2851,7 @@ input, select, textarea {
 
 	#footer {
 		background-attachment: scroll;
-		background-color: #4eb980;
+		background-color: #476527;
 		background-image: url("images/bottom-3200.svg");
 		background-position: top center;
 		background-repeat: repeat-x;
