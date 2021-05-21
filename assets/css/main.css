@@ -2041,6 +2041,7 @@ input, select, textarea {
 			.skills ul li {
 				font-size: 2.3em;
 				color: #476527;
+				padding-top: 0.4em;
 			}
 
 			header.major.last {
