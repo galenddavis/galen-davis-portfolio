@@ -2675,7 +2675,7 @@ input, select, textarea {
 		}
 
 		.feature .image {
-			display: inline-block;
+			display: flex;
 			height: 100%;
 			overflow: hidden;
 			position: relative;
@@ -2684,9 +2684,10 @@ input, select, textarea {
 
 			.feature .image img {
 				display: block;
-				height: 100%;
+				height: auto;
 				min-width: 100%;
-				position: absolute;
+				/* position: absolute; */
+				object-fit: cover;
 			}
 
 		.feature:before {
@@ -2723,6 +2724,7 @@ input, select, textarea {
 				.feature.left .image img {
 					right: 0;
 					top: 0;
+					/* border-right: 1px solid rgba(224, 224, 224, 0.75); */
 				}
 
 			.feature.left .content {
@@ -2740,6 +2742,7 @@ input, select, textarea {
 				.feature.right .image img {
 					left: 0;
 					top: 0;
+					border-left: 1px solid rgba(224, 224, 224, 0.75);
 				}
 
 			.feature.right .content {
