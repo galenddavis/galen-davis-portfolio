@@ -2019,14 +2019,14 @@ input, select, textarea {
 			.spaceship {
 				height: 4.0em;
 				margin: 3em 0 0 0;
-				transition: 2s ease-in-out;
+				/* transition: 2s ease-in-out; */
 				/* position: absolute; */
 			}
 
-			.spaceship:hover {
+			/* .spaceship:hover {
 				height: 4.5em;
 				margin: 2.5em 0 0 0;
-			}
+			} */
 
 			.skills {
 				display: flex;
@@ -2689,6 +2689,8 @@ input, select, textarea {
 				/* position: absolute; */
 				object-fit: cover;
 			}
+
+			
 
 		.feature:before {
 			background: blue;
