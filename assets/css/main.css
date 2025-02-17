@@ -2664,6 +2664,10 @@ input, select, textarea {
 		height: 20em;
 	}
 
+	.feature.brale-section {
+		height: auto;
+	}
+
 		.feature:after {
 			clear: both;
 			content: '';
@@ -2764,7 +2768,7 @@ input, select, textarea {
 		background-repeat: repeat-x,								no-repeat;
 		background-size: 3200px 460px,							cover;
 		color: rgba(255, 255, 255, 0.8);
-		padding: 4em 0 10em 0;
+		padding: 3em 0 4em 0;
 		position: relative;
 		text-align: center;
 	}
@@ -3022,7 +3026,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 4em 0 10em 0;
+				padding: 2em 0 10em 0;
 			}
 
 				#header h1 {
@@ -3081,11 +3085,16 @@ input, select, textarea {
 
 			.feature {
 				height: 18em;
+				height: auto;
 			}
 
 				.feature .content {
 					padding: 2.5em;
 				}
+
+			.content.brale {
+				padding-top: 0.8em;
+			}
 
 		/* Header */
 
